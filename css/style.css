@@ -1,0 +1,227 @@
+:root {
+    --white-color: #FFFFFF;
+    --gold-color: #FFD700;
+    --silver-color: #c0c0c0;
+    --burgundy-color: #2e1115;
+    --black-color: #000000;
+    --main-font-family: "times new roman";
+    --secnd-font-family: arial;
+    --def-font-size: 1.1em; 
+}
+
+body {
+    background-color: var(--burgundy-color);
+    font-family: var(--main-font-family);
+    color: var(--white-color);
+    font-size: var(--def-font-size); 
+    line-height: 1.5;
+}
+
+div.video {
+    margin: 5px;
+    display: inline-block;
+}
+
+div.video:hover {
+    border: 1px solid var(--gold-color);
+}
+
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+    text-align: center;
+}
+
+.enter_link {
+    color: var(--gold-color);
+}
+
+pre {
+    font-family: var(--main-font-family);
+}
+
+table, th, td, tr {
+    border: 1px solid var(--silver-color);
+    border-collapse: collapse; 
+    padding: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+tr:hover {
+    background-color: var(--gold-color);
+    color: var(--black-color);
+}
+
+q {
+    color: var(--gold-color);
+}
+
+a:link {
+    color: var(--silver-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--silver-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--gold-color);
+    text-decoration: underline;
+}
+
+.header {
+    background-color: var(--black-color);
+    padding: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* The navbar container */
+.menu {
+    overflow: hidden;
+    background-color: var(--burgundy-color);
+    margin-bottom: -8px;
+}
+
+/* Navbar links */
+.menu a {
+    float: left;
+    display: block; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--silver-color); 
+}
+
+/* Links - change color on hover */
+.menu a:hover {
+    color: var(--gold-color);
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  padding: 18px 16px;
+  background-color: inherit;
+  color: var(--silver-color);
+  font-family: var(--main-font-family);
+  font-size: 1em;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--burgundy-color);
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: var(--silver-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: var(--gold-color);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create one column that floats center */
+.column-center {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/* Create one column that floats left */
+.column-left {
+    float: left;
+    text-align: left;
+    margin: 1%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styles classes for image gallery */
+div.gallery {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border: 1px solid var(--silver-color);
+}
+
+div.gallery:hover {
+    border: 1px solid var(--gold-color);
+}
+
+div.gallery img {
+    height: 200px;
+}
+
+.footer {
+    background-color: var(--black-color);
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+     
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    background-color: transparent;
+    color: white;
+}
+
+/* Email */
+.fa-envelope {
+    background-color: transparent;
+    color: var(--silver-color);
+}
+
+/* Mobile */
+.fa-phone {
+    background-color: transparent;
+    color: var(--silver-color);
+}
